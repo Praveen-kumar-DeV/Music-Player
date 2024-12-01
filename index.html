@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/860e7596f3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="audio-container">
+      <h1 class="player-title"><b>Ninja Music Player</b></h1>
+
+      <div class="audio-img-wrapper">
+        <div class="audio-img">
+          <img src="" alt="" class="img" />
+        </div>
+
+        <h2 class="audio-title"></h2>
+        <h6 class="audio-singer"></h6>
+      </div>
+      <audio id="song">
+        <source src="" type="audio/mp3" id="song-source" />
+      </audio>
+      <div class="audio-progress">
+        <div class="progress">
+          <div class="progress-bar">
+            <input type="range" value="0" class="seek-bar" id="progress" />
+          </div>
+          <div class="progress-head"></div>
+        </div>
+
+        <div class="current-time"></div>
+        <div class="duration"></div>
+      </div>
+
+      <div class="audio-btns">
+        <button class="btn skip-back">
+          <i class="fa-solid fa-backward-step"></i>
+        </button>
+
+        <button class="btn play" id="ctrlIcon">
+          <span> <i class="fa-solid fa-play" id="playPause"></i> </span>
+        </button>
+
+        <button class="btn skip-forward">
+          <i class="fa-solid fa-forward-step"></i>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
