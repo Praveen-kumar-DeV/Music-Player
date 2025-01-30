@@ -82,6 +82,9 @@ tracks = [
 
 ![DEMO](./images/Screenshot.png)
 
+## Live Link
+[Project Link](https://679b407df0f7d49c206f8799--frabjous-platypus-7668e8.netlify.app/)
+
 ### **Developer Notes**
 
 - Ensure audio files (.mp3) and images (.jpg) match the names provided in the track list.
